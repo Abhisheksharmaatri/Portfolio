@@ -260,6 +260,43 @@
   margin-top: 1.5rem;
 }
 
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* Allows items to wrap when space is filled */
+  gap: 8px;
+  /* Adds spacing between items */
+  padding: 0;
+  list-style: none;
+}
+
+.contact-list-item {
+  background-color: #4caf50;
+  /* Blue background */
+  color: white;
+  /* White text */
+  padding: 8px 12px;
+  /* Padding for button-like appearance */
+  border-radius: 20px;
+  /* Rounded corners */
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents text from breaking */
+  cursor: default;
+  transition: 0.3s;
+}
+
+.contact-list-item a {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Footer */
 .footer {
   text-align: center;
