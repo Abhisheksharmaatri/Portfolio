@@ -1,0 +1,270 @@
+/* Root Styling */
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Global Button Style */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ffcc00;
+  color: #121212;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+/* Parent */
+.App-parent {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* Navbar */
+.hero-section {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  /* z-index: 100; */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0.85); */
+  background-color: white;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hero-logo {
+  color: #ffcc00;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.hero-toggle {
+  display: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.hero-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-item {
+  cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.hero-item a {
+  color: white;
+}
+
+.hero-item a:hover {
+  color: #ffcc00;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .hero-toggle {
+    display: block;
+  }
+
+  .hero-links {
+    display: none;
+  }
+}
+
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(180deg, #1a1a1a, #121212);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-title span {
+  color: #ffcc00;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #b0b0b0;
+  margin-top: 0.5rem;
+}
+
+.hero-button {
+  margin-top: 2rem;
+}
+
+/* Projects Section */
+.project-section {
+  padding: 5rem 1.5rem;
+}
+
+.project-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffcc00;
+}
+
+.project-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-card {
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.project-description {
+  color: #b0b0b0;
+}
+
+.project-link {
+  margin-top: 0.5rem;
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.project-features-list {
+  list-style: none;
+}
+
+.project-features-list-item {
+  margin: 0.2rem;
+}
+
+
+.project-technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allows items to wrap when space is filled */
+  gap: 8px;
+  /* Adds spacing between items */
+  padding: 0;
+  list-style: none;
+}
+
+.project-technology-list-item {
+  background-color: #4caf50;
+  /* Blue background */
+  color: white;
+  /* White text */
+  padding: 8px 12px;
+  /* Padding for button-like appearance */
+  border-radius: 20px;
+  /* Rounded corners */
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  /* Prevents text from breaking */
+  cursor: default;
+  transition: 0.3s;
+}
+
+.project-technology-list-item:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+
+
+/* Contact Section */
+.contact-section {
+  padding: 5rem 1.5rem;
+  background-color: #1a1a1a;
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #ffcc00;
+}
+
+.contact-form {
+  max-width: 28rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 90%;
+  padding: 0.75rem;
+  background: transparent;
+  border-bottom: 2px solid #ffcc00;
+  color: #ffffff;
+  outline: none;
+  font-size: 1rem;
+}
+
+.contact-margin {
+  margin-top: 1rem;
+}
+
+.contact-button {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #0f0f0f;
+  font-size: 1rem;
+  color: #b0b0b0;
+}
