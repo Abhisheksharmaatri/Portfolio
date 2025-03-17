@@ -3,7 +3,7 @@ import { Menu, X } from 'lucide-react'
 import { motion } from 'framer-motion'
 import '../App.css' // Importing the external CSS file
 
-const Navbar = () => {
+const NavBar = () => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -25,4 +25,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavBar
