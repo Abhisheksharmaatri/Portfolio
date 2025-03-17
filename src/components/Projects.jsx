@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import '../app.css' // Importing the external CSS file
+import '../App.css' // Importing the external CSS file
 
 const projects = [
   {
