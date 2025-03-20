@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Collaborative Code Editor',
     desc: 'A real-time collaborative code editor built with React, Node.js, and Socket.io that lets used code and collaborate together.',
-    link: '#',
+    link: 'https://collaborative-code-editor-three.vercel.app/home',
     technology: [
       'React',
       'React Router',
@@ -36,7 +36,7 @@ const projects = [
   {
     title: 'Full Stack User Management App',
     desc: 'A full-stack web application enabling users to view, filter, search, and manage a list of users with team creation functionality.',
-    link: '#',
+    link: 'https://github.com/Abhisheksharmaatri/Team-Management-Web-Application',
     technology: [
       'React',
       'React Router',
