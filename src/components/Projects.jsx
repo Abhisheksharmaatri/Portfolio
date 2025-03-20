@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Collaborative Code Editor',
     desc: 'A real-time collaborative code editor built with React, Node.js, and Socket.io that lets used code and collaborate together.',
-    link: 'https://collaborative-code-editor-three.vercel.app/home',
+    link: 'https://collaborative-code-editor-three.vercel.app',
     technology: [
       'React',
       'React Router',
