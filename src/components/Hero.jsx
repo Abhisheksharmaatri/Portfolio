@@ -20,7 +20,7 @@ const Hero = () => {
         transition={{ delay: 0.5, duration: 1 }}
         className='text-xl mt-3 text-gray-400'
       >
-        Full-Stack Developer | React | Node.js
+        Software Engineer at Accenture
       </motion.p>
       <motion.button
         whileHover={{ scale: 1.1 }}
