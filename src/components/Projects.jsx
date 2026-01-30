@@ -3,6 +3,41 @@ import '../App.css' // Importing the external CSS file
 
 const projects = [
   {
+  title: 'Marketplace Microservices Platform',
+  desc: 'A scalable marketplace application built using Spring Boot microservices architecture, featuring product, order, inventory, and notification services with secure authentication, fault tolerance, and distributed tracing.',
+  link: 'https://github.com/Abhisheksharmaatri/Marketplace-Microservices',
+  technology: [
+    'Java',
+    'Spring Boot',
+    'Spring Cloud',
+    'API Gateway',
+    'Service Discovery (Eureka)',
+    'Kafka',
+    'Keycloak',
+    'Zipkin',
+    'Resilience4j',
+    'Circuit Breaker',
+    'Distributed Tracing',
+    'Docker',
+    'MySQL',
+    'PostgreSQL'
+  ],
+  features: [
+    'Microservices-based architecture with independent services',
+    'Product, Order, Inventory, and Notification services',
+    'Centralized API Gateway for request routing',
+    'Service discovery using Eureka Server',
+    'Asynchronous communication using Kafka',
+    'Secure authentication and authorization with Keycloak',
+    'Fault tolerance and resilience using Resilience4j circuit breakers',
+    'Distributed tracing and monitoring with Zipkin',
+    'Scalable and loosely coupled system design'
+  ],
+  contributors: ['Abhishek Sharma'],
+  acknowledgments:
+    'Thanks to the Spring ecosystem and open-source community for providing powerful tools for building resilient microservices.'
+},
+  {
     title: 'Collaborative Code Editor',
     desc: 'A real-time collaborative code editor built with React, Node.js, and Socket.io that lets used code and collaborate together.',
     link: 'https://collaborative-code-editor-three.vercel.app',
